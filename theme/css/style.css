@@ -1,0 +1,67 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+@media only screen and (max-width: 600px) {
+  .row.valign-wrapper {
+    display: inherit;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+div:target {
+  padding-top: 65px; 
+  margin-top: -65px;
+}
+
+.navbar-fixed .nav-wrapper .brand-logo img {
+    height: 54px;
+}
+
+nav ul a.active {
+  color:lightgrey;
+}
+
+.img-logo-vertical {
+	position: relative;
+	top: 50%;
+	transform:translateY(10%);
+}
+
+html {
+    font-family: Oxygen;
+  }
+
+.title-back {
+    background-color: white;
+}
+
+.background-repeat {
+    background:url("/images/background.png") 0px 0px fixed;
+    background-size: 70px;
+    z-index:-2;
+}
+
+.parallax-container {
+      height: 200px;
+    }
+
+h3 {
+     font-weight: 600;
+}
+
+.steth {
+    background-color: #0F6FB7
+}
+

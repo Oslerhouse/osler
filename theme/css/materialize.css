@@ -3396,8 +3396,6 @@ input[type=range] + .thumb {
   margin-bottom: 20px;
 }
 
-
-
 .row:after {
   content: "";
   display: table;

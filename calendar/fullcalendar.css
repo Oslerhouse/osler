@@ -50,7 +50,7 @@ body .fc { /* extra precedence to overcome jqui */
 }
 
 .fc-unthemed .fc-today {
-	background: #fcf8e3;
+	background: #ffffff;
 }
 
 .fc-highlight { /* when user is selecting cells */
@@ -219,37 +219,12 @@ NOTE: use percentage font sizes or else old IE chokes
 	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
-.fc-state-hover,
-.fc-state-down,
-.fc-state-active,
-.fc-state-disabled {
-	color: #333333;
-	background-color: #e6e6e6;
-}
 
-.fc-state-hover {
-	color: #333333;
-	text-decoration: none;
-	background-position: 0 -15px;
-	-webkit-transition: background-position 0.1s linear;
-	   -moz-transition: background-position 0.1s linear;
-	     -o-transition: background-position 0.1s linear;
-	        transition: background-position 0.1s linear;
-}
 
-.fc-state-down,
-.fc-state-active {
-	background-color: #cccccc;
-	background-image: none;
-	box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
-}
 
-.fc-state-disabled {
-	cursor: default;
-	background-image: none;
-	opacity: 0.65;
-	box-shadow: none;
-}
+
+
+
 
 
 /* Buttons Groups
@@ -331,12 +306,7 @@ previous button's border...
 	border-width: 1px;
 }
 
-hr.fc-divider {
-	height: 0;
-	margin: 0;
-	padding: 0 0 2px; /* height is unreliable across browsers, so use padding */
-	border-width: 1px 0;
-}
+
 
 .fc-clear {
 	clear: both;
@@ -520,13 +490,15 @@ temporary rendered events).
 	font-size: .85em;
 	line-height: 1.3;
 	border-radius: 3px;
-	border: 1px solid #3a87ad; /* default BORDER color */
+	border: 1px solid #000000; /* default BORDER color */
 	font-weight: normal; /* undo jqui's ui-widget-header bold */
 }
 
+
+
 .fc-event,
 .fc-event-dot {
-	background-color: #3a87ad; /* default BACKGROUND color */
+	background-color: #e91e63; /* default BACKGROUND color */
 }
 
 /* overpower some of bootstrap's and jqui's styles on <a> tags */
@@ -841,6 +813,7 @@ a.fc-more:hover {
 
 .fc-toolbar h2 {
 	margin: 0;
+    font-size: 22px;
 }
 
 /* button layering (for border precedence) */
@@ -849,23 +822,7 @@ a.fc-more:hover {
 	position: relative;
 }
 
-.fc-toolbar .fc-state-hover,
-.fc-toolbar .ui-state-hover {
-	z-index: 2;
-}
-	
-.fc-toolbar .fc-state-down {
-	z-index: 3;
-}
 
-.fc-toolbar .fc-state-active,
-.fc-toolbar .ui-state-active {
-	z-index: 4;
-}
-
-.fc-toolbar button:focus {
-	z-index: 5;
-}
 
 
 /* View Structure

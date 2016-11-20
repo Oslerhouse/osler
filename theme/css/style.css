@@ -20,10 +20,7 @@
 	font-size: inherit;
 }
 
-div:target {
-  padding-top: 65px; 
-  margin-top: -65px;
-}
+
 
 .navbar-fixed .nav-wrapper .brand-logo img {
     height: 54px;

@@ -58,6 +58,39 @@ h3 {
      font-weight: 600;
 }
 
+  /* label color */
+   .input-field label {
+     color: #fff;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #fff;
+   }
+
+.input-field textarea[class=materialize-textarea]:focus + label {
+        color: #fff;
+   }
+
+.input-field textarea[class=materialize-textarea] {
+    color: white
+}
+    
+   /* label underline focus color */
+   .input-field input[type=text]:focus, .input-field input[type=email]:focus {
+     border-bottom: 1px solid #fff;
+     box-shadow: 0 1px 0 0 #fff;
+   }
+
+.input-field textarea[class=materialize-textarea]:focus {
+     border-bottom: 1px solid #fff;
+     box-shadow: 0 1px 0 0 #fff;
+}
+
+ #map {
+      width: 100%;
+      height: 350px;
+    }
+
 /* Calendar Material Design */
 
 /* Remove that awful yellow color and border from today in Schedule */

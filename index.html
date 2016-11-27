@@ -355,11 +355,12 @@
                 <br>
                 <h5 class="white-text">Contact us</h5>
                 <br>
-                <form name="contact" action="thank-you" netlify>
+                <form name="contact" action="thank-you" netlify netlify-honeypot="bot-field">
                     <div class="input-field">
                       <i class="fa fa-user-o prefix white-text" aria-hidden="true"></i>
                       <input name="name" type="text" class="validate white-text">
                       <label class="white-text" for="name">Name</label>
+                      <p class="hidden"><label>Company<input name="bot-field"></label></p>
                     </div>
                     
                     <div class="input-field">

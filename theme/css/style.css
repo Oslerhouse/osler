@@ -91,6 +91,11 @@ h3 {
       height: 350px;
     }
 
+.hidden {
+    
+    display: none;
+}
+
 /* Calendar Material Design */
 
 /* Remove that awful yellow color and border from today in Schedule */
